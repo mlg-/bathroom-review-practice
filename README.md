@@ -16,7 +16,7 @@ Let's create a Rails app that allows users to review bathrooms. These are the cr
 - [] A bathroom has to have a location name, address, and city, state, zip. It can optionally have a description.
 - [] Visiting the `/bathrooms` path should contain a list of bathrooms.
 - [] Visiting the `/bathrooms/new` path should display a form for adding a new bathroom.
-- [] If a bathroom is saved I'm redirected to `/bathroom` path, I should see the new bathroom I've added, and if it is not saved I'm left on the `/bathrooms/new` page and displayed an error.
+- [] If a bathroom is saved I'm redirected to `/bathroom/5` path, I should see the new bathroom I've added, and if it is not saved I'm left on the `/bathrooms/new` page and displayed an error.
 - [] Visiting the `/bathrooms/5` path should show the bathroom details for a bathroom with ID = 5.
 - [] Visiting the root path should display a list of all bathrooms.
 
