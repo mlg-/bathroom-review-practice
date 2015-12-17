@@ -8,7 +8,7 @@ Let's create a Rails app that allows users to review bathrooms. These are the cr
 - What is the relationship between them?
 
 ###Getting Set up
-- ` git clone `
+- ` git clone git@github.com:EliseFitz15/bathroom-review-practice.git`
 - Create our databases `rake db:create`
 - Take a look at our tests
 
