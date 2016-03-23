@@ -30,6 +30,12 @@ feature "visitors can add bathrooms" do
     visit new_bathroom_path
 
     click_button "Add Bathroom"
-    expect(page).to have_content "Name can't be blank. Address can't be blank. City can't be blank. State can't be blank. Zip can't be blank. Zip is the wrong length (should be 5 characters). Zip is not a number"
+    expect(page).to have_content "Name can't be blank"
+    expect(page).to have_content "Address can't be blank"
+    expect(page).to have_content "City can't be blank"
+    expect(page).to have_content "State can't be blank"
+    expect(page).to have_content "Zip can't be blank"
+    expect(page).to have_content "Zip is the wrong length (should be 5 characters)"
+    expect(page).to have_content "Zip is not a number"
   end
 end
