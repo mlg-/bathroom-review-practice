@@ -33,6 +33,7 @@ feature "visitors can add reviews for bathrooms" do
 
     click_button "Add Review"
 
-    expect(page).to have_content "Body can't be blank. Rating Must be between 1 - 5"
+    expect(page).to have_content "Body can't be blank"
+    expect(page).to have_content "Rating must be between 1 - 5"
   end
 end
