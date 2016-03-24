@@ -1,0 +1,15 @@
+<h1><%= @bathroom.name %></h1>
+<%= @bathroom.description %>
+<%= @bathroom.address %>
+<%= @bathroom.city %>
+<%= @bathroom.state %>
+<%= @bathroom.zip %>
+
+<h2>Reviews</h2>
+<% @reviews.each do |review| %>
+  <%= review.rating %>
+  <%= review.body %>
+  <%= review.created_at.strftime("%B %d %Y") %>
+<% end %>
+
+<%= link_to "Add a Review", new_bathroom_review_path(@bathroom) %>

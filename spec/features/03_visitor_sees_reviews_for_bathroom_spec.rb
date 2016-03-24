@@ -21,7 +21,7 @@ feature "visitor sees list of reviews on bathroom page" do
 
   scenario "does not see other reviews for other bathrooms" do
     launch = Bathroom.create(name: "Launch Academy", address: "33 Harrison Ave", city: "Boston", state: "MA", zip: "02111")
-    review_for_launch = Review.create(rating: 4, body: "This is a slightly less than rave review", bathroom: launch)
+    review_for_launch = Review.create(rating: 3, body: "This is a slightly less than rave review", bathroom: launch)
 
     starbucks = Bathroom.create(name: 'Starbucks', address: '125 Summer St', city: 'Boston', state: 'MA', zip: '02110')
     review_for_starbucks = Review.create(rating: 2, body: "Super sketch", bathroom: starbucks)
