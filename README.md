@@ -13,6 +13,7 @@ Let's create a Rails app that allows users to review bathrooms. These are the cr
 - Run `rake`
 
 ##To Pull Down the Solution and Look At It on Your Machine
+- ` git clone git@github.com:mlg-/bathroom-review-practice.git` or `git clone https://github.com/mlg-/bathroom-review-practice.git` (if you haven't already)
 - `git fetch --all` (this pulls down all the remote branches on GitHub for this repo)
 - `git checkout live-solution` (this checks out the live solution of the code)
 
