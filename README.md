@@ -1,18 +1,24 @@
-# Let's create a review site for Bathrooms
+#Let's Create a Review Site for Bathrooms!
 
 Let's create a Rails app that allows users to review bathrooms. These are the criteria I want my app to satisfy in terms of listing bathrooms.
 
-###Things to think about
+#Things to Think About
 - ER Diagram
 - What models should we have?
 - What is the relationship between them?
 
-###Getting Set up
-- ` git clone git@github.com:EliseFitz15/bathroom-review-practice.git`
-- Create our databases `rake db:create`
-- Take a look at our tests
+##To Pull This Down for Practice
+- ` git clone git@github.com:mlg-/bathroom-review-practice.git` or `git clone https://github.com/mlg-/bathroom-review-practice.git`
+- Create the databases `rake db:create`
+- Run `rake`
 
-###App Functionality
+##To Pull Down the Solution and Look At It on Your Machine
+- `git fetch --all` (this pulls down all the remote branches on GitHub for this repo)
+- `git checkout live-solution` (this checks out the live solution of the code)
+
+You can also view all the stuff we added/changed on Github [here](https://github.com/mlg-/bathroom-review-practice/pull/2/files).
+
+##App Functionality
 - [] A bathroom has to have a location name, address, and city, state, zip. It can optionally have a description.
 - [] Visiting the `/bathrooms` path should contain a list of bathrooms.
 - [] Visiting the `/bathrooms/new` path should display a form for adding a new bathroom.
