@@ -1,0 +1,8 @@
+<h1>All Bathrooms</h1>
+
+<% @bathrooms.each do |bathroom| %>
+  <%= link_to bathroom.name, bathroom_path(bathroom) %>
+  <%= bathroom.description %>
+<% end %>
+
+<%= link_to "Add New Bathroom", new_bathroom_path %>
